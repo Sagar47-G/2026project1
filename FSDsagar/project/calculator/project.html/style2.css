@@ -1,0 +1,156 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.outer1{
+   
+    border: 2px black solid;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav content"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+    
+}
+.outer2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO26VHApUQmv6irtKJhtc2o7tBStqsP3fusA&s");
+    border: 2px black solid;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav content"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+}
+    .outer3{
+    background-image: url("https://m.media-amazon.com/images/I/61csokWq+kL._AC_UF1000,1000_QL80_.jpg");
+    border: 2px black solid;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav content"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+    }
+    .outer4{
+    background-image: url("https://www.shutterstock.com/image-photo/summer-background-flowers-nature-beautiful-600nw-1038824167.jpg");
+    border: 2px black solid;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav content"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+    }
+
+.header{
+    text-align: center;
+    border: 5px black solid;
+    grid-area: header;
+    border-radius: 20px;
+}
+.nav{
+    row-gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px rgb(245, 9, 9) solid;
+    grid-area: nav;
+}
+a{
+    border-radius: 20%;
+    background-color: aqua;
+    border: 2px rgb(12, 10, 10) solid;
+}
+a:hover{
+    scale: 1.2;
+    
+}
+.content{
+ gap:  20px;
+    border: 5px black solid;
+    grid-area: content;
+    display: grid;
+    grid-template-areas: 
+    "frame1 frame2 frame3"
+    "frame4 frame5 frame6"
+    "frame7 frame8 frame9";
+      grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    box-shadow: 100%;
+    
+      
+}
+.frame1{
+    grid-area: frame1;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame2{
+    grid-area: frame2;
+    border: 1px rgb(187, 21, 21) solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame3{
+    grid-area: frame3;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame4{
+    grid-area: frame4;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame5{
+    grid-area: frame5;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame6{
+    grid-area: frame6;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame7{
+    grid-area: frame7;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame8{
+    grid-area: frame8;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.frame9{
+    grid-area: frame9;
+    border: 1px black solid;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px;
+}
+.footer{
+    text-align: center;
+    border: 5px black solid;
+    grid-area: footer;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}

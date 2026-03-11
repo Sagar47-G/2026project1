@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>forms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: #7CFC00;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .flower {
+    position: fixed;
+    top: -50px;
+    font-size: 30px;
+    animation: fall linear infinite;
+  }
+
+  @keyframes fall {
+    to {
+      transform: translateY(110vh) rotate(360deg);
+    }
+  }
+</style>
+</head>
+<body>
+    
+    <h1>This last page for thank you</h1>
+    <div class="th">
+        
+    <img src="https://media1.tenor.com/m/gIGLH6uj5ZUAAAAd/cows-thank-you.gif"></img>
+    </div>
+    <script>
+  const flowers = ["🌸", "🌼", "🌺", "🌷",""];
+
+  function createFlower() {
+    const flower = document.createElement("div");
+    flower.className = "flower";
+    flower.innerText = flowers[Math.floor(Math.random() * flowers.length)];
+
+    flower.style.left = Math.random() * window.innerWidth + "px";
+    flower.style.animationDuration = (3 + Math.random() * 5) + "s";
+
+    document.body.appendChild(flower);
+
+    setTimeout(() => {
+      flower.remove();
+    }, 8000);
+  }
+
+  setInterval(createFlower, 300);
+</script>
+    <div class="footer">
+        <h3>2026@ copy right by sagar</h3>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.p:hover{
+    color: rgb(255, 0, 0);
+}
+a{
+text-decoration: none;
+color: black;
+}
+.sign a{
+    text-decoration: none;
+}
+.hi{
+    width: 50%;
+    height: 8%;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.g{
+    width: 30%;
+    height: 5%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.g:hover{
+    background-color: rgb(167, 245, 89);
+}
+.a{
+    color: rgb(127, 4, 175);
+}

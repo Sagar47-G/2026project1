@@ -1,0 +1,193 @@
+body{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/258/0/HD-wallpaper-sky-beautiful-blur-lavender-morning-nature-normal-woods.jpg);
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .l{
+    width: 100vw;
+    height: 80vh;
+} */
+.header{
+    width: 60vw;
+    height: 10vh;
+    background-color: rgba(228, 11, 11, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.content{
+    width: 80vw;
+    height: 50vh;
+    background-color:rgba(255, 4, 192, 0.5);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.put{
+    width: 50%;
+    height: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+/* input{
+    width: 100px;
+    height: 30px;
+   /* background-color: aqua;
+   
+}  */
+.p{
+        width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+    border: 1px solid;
+     border-radius: 20px;
+         display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkgoldenrod;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header1{
+    width: 60vw;
+    height: 10vh;
+    background-color: rgba(228, 11, 11, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.content1{
+    width: 80vw;
+    height: 50vh;
+    background-color:cyan;
+    border-radius: 30px;
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 5px; */
+    gap: 5px;
+}
+.footer1{
+        width: 100vw;
+    height: 20vh;
+    background-color: darkgoldenrod;
+    border-radius: 30px;
+               display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signin{
+      width: 20vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.signup{
+      width: 20vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+     border-radius: 10%;
+           display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.header2{
+    width: 60vw;
+    height: 10vh;
+    background-color: rgba(228, 11, 11, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.content2{
+    width: 80vw;
+    height: 50vh;
+    background-color:cyan;
+    border-radius: 30px;
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 5px; */
+    gap: 5px;
+}
+.footer2{
+        width: 100vw;
+    height: 20vh;
+    background-color: rgb(184, 135, 11);
+    border-radius: 30px;
+               display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+        width: 40vw;
+    height: 40vh;
+    background-color: rgba(0,0,0,0.2);
+               display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+/* .input{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+} */
+/* input.hover{
+    background-color: brown;
+} */
+.th{
+    max-width: 40vw;
+    max-height: 40vh;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid;
+    
+
+}
+body{
+justify-content: center;
+}
+img{
+width: 40vw;
+height: 40vh;
+
+}

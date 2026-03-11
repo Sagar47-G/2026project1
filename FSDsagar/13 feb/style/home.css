@@ -1,0 +1,18 @@
+
+.log a{
+    text-decoration: none;
+    width: 50%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.log a:hover{
+    color:chartreuse;
+}

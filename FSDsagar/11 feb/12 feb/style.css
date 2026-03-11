@@ -1,0 +1,42 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.log{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(101, 107, 95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 3px 3px 4px;
+    border-radius: 20px;
+
+}
+input[type="text"],[type="password"]{
+    width: 50%;
+    height: 10%;
+    box-shadow: 3px 3px 4px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+    
+}
+input[type="submit"]{
+    width: 20%;
+    height: 6%;
+    box-shadow: 3px 3px 4px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+}

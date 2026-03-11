@@ -1,0 +1,80 @@
+body{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.game_name{
+    width: 80vw;
+    height: 8vh;
+    /* background-color: rgb(100, 77, 77); */
+    text-align: center;
+}
+.winner{
+    width: 80vw;
+    height: 8vh;
+    /* background-color: rgb(152, 205, 207); */
+    text-align: center;
+}
+.dice{
+     width: 80vw;
+    height: 60vh;
+    background-color: rgb(147, 224, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.dice1{
+    width: 300px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dice2{
+    width: 300px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    width: 80%;
+    height: 10%;
+    /* background-color: rgb(245, 193, 193); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 90%;
+    height: 80%;
+    /* background-color: rgb(173, 200, 224); */
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.play{
+     width: 80vw;
+    height: 8vh;
+    /* background-color: rgb(207, 152, 198); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    border: goldenrod dashed;
+}

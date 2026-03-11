@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+    display: flex;
+    
+   
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.product{
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.product img{
+    width: 100%;
+}
+
+button{
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}

@@ -1,0 +1,193 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+*{
+    margin: 0;
+}
+/* .................................header....................... */
+.header{
+    width: 100vw;
+    height: 8vh;
+    background-color:lightskyblue;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+/* ........................social................... */
+.social{
+    width: 25%;
+    height: 80%;
+    /* background-color: blue; */
+     display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 3%;
+}
+/* ..........................icon......................... */
+.icon{
+    width: 21%;
+    height: 80%;
+    /* background-color: aqua; */
+    
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+/* ............................adds................ */
+.adds{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    border: 2px black dashed;
+}
+/* ...........................left & right............. */
+.left,.right{
+    width: 10%;
+    height: 80%;
+    /* background-color: chartreuse; */
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+}
+/* ........................add_content............ */
+.add_content{
+    width: 80%;
+    height: 80%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.high{
+    font-size: x-large;
+    background-color: rgb(255, 0, 0);
+}
+/* .................logo.................... */
+.logo{
+    width: 10%;
+    height: 80%;
+    /* background-color: aquamarine; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+/* ////////////////////////scound div//////////////////////// */
+.off{
+    width: 100vw;
+    height: 5vh;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.off h2{
+    border: 2px black dashed;
+    /* border-radius: 10px; */
+}
+/* ///////////////////third div content///////////////// */
+.content{
+    /* width: 80vw;
+    height: 180vh; */
+    /* background-color:yellowgreen; */
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px white dashed;
+}
+.frame1{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 90%;
+    height: 50vh;
+    border: 5px chartreuse dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.frame1:hover{
+    box-shadow: 0 0 30px rgb(112, 110, 110);
+}
+.frame{
+    /* margin-top: 10px; */
+    margin-left: 30px;
+    width: 90%;
+    height: 50vh;
+    border: 5px chartreuse dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+   
+}
+.frame:hover{
+    box-shadow: 0 0 30px rgb(124, 119, 119);
+}
+.image{
+    width: 90%;
+    height: 60%;
+    /* background: #1e3868; */
+}
+.image img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.image_content{
+    color: aliceblue;
+    width: 90%;
+    height: 35%;
+    background: #080808;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border-top: 1px red solid;
+    border-left: 1px  rgb(226, 0, 0) solid;
+    margin-top: 10px;
+
+
+}
+button{
+    width: 250%;
+    height: 180%;
+    border-radius: 20px;
+    
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+}
+/* /////////////////////footer///////////////// */
+.footer{
+    width: 80%;
+    height: 10%;
+    background-color: forestgreen;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
